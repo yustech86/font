@@ -1,0 +1,32 @@
+<html>
+<head>
+  <style>
+    /* @font-face rule to embed Kaleko105 font */
+    @font-face {
+      font-family: 'Kaleko105';
+      src: url('https://yourserver.com/fonts/Kaleko105-Regular.woff2') format('woff2'),
+           url('https://yourserver.com/fonts/Kaleko105-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Apply Kaleko105 to the body */
+    body {
+      font-family: 'Kaleko105', Arial, sans-serif;
+    }
+
+    /* Additional example for specific text */
+    .kaleko-text {
+      font-family: 'Kaleko105', Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="kaleko-text">
+    <h1>Kaleko105 Font Example</h1>
+    <p>This text is using the Kaleko105 font, if supported by the email client.</p>
+  </div>
+</body>
+</html>
